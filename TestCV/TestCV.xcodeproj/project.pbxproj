@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F6F0EE2216E97DC00067B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F0EE1216E97DC00067B41 /* AppDelegate.m */; };
+		7F6F0EE4216E97DF00067B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F0EE3216E97DF00067B41 /* Assets.xcassets */; };
+		7F6F0EE7216E97DF00067B41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F0EE5216E97DF00067B41 /* MainMenu.xib */; };
+		7F6F0EEA216E97DF00067B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F0EE9216E97DF00067B41 /* main.m */; };
+		7F6F0EF3216E983200067B41 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EF2216E983200067B41 /* Accelerate.framework */; };
+		7F6F0EF5216E983A00067B41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EF4216E983A00067B41 /* AudioToolbox.framework */; };
+		7F6F0EF7216E984100067B41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EF6216E984100067B41 /* AVFoundation.framework */; };
+		7F6F0EF9216E984800067B41 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EF8216E984800067B41 /* AVKit.framework */; };
+		7F6F0EFB216E985200067B41 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EFA216E985200067B41 /* CoreMedia.framework */; };
+		7F6F0EFD216E985A00067B41 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EFC216E985A00067B41 /* CoreVideo.framework */; };
+		7F6F0F11216E986E00067B41 /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EFE216E986D00067B41 /* libavresample.a */; };
+		7F6F0F12216E986E00067B41 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0EFF216E986D00067B41 /* liblibpng.a */; };
+		7F6F0F13216E986E00067B41 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F00216E986D00067B41 /* libavcodec.a */; };
+		7F6F0F14216E986E00067B41 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F01216E986D00067B41 /* libswresample.a */; };
+		7F6F0F15216E986E00067B41 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F02216E986E00067B41 /* libavdevice.a */; };
+		7F6F0F16216E986E00067B41 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F03216E986E00067B41 /* libavformat.a */; };
+		7F6F0F17216E986E00067B41 /* libopencv_world.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F04216E986E00067B41 /* libopencv_world.a */; };
+		7F6F0F18216E986E00067B41 /* liblibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F05216E986E00067B41 /* liblibjpeg.a */; };
+		7F6F0F19216E986E00067B41 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F06216E986E00067B41 /* libavfilter.a */; };
+		7F6F0F1A216E986E00067B41 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F07216E986E00067B41 /* libzlib.a */; };
+		7F6F0F1B216E986E00067B41 /* libippicv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F08216E986E00067B41 /* libippicv.a */; };
+		7F6F0F1C216E986E00067B41 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F09216E986E00067B41 /* libavutil.a */; };
+		7F6F0F1D216E986E00067B41 /* libIlmImf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0A216E986E00067B41 /* libIlmImf.a */; };
+		7F6F0F1E216E986E00067B41 /* liblibjasper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0B216E986E00067B41 /* liblibjasper.a */; };
+		7F6F0F1F216E986E00067B41 /* liblibwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0C216E986E00067B41 /* liblibwebp.a */; };
+		7F6F0F20216E986E00067B41 /* liblibtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0D216E986E00067B41 /* liblibtiff.a */; };
+		7F6F0F21216E986E00067B41 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0E216E986E00067B41 /* libswscale.a */; };
+		7F6F0F22216E986E00067B41 /* libittnotify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F0F216E986E00067B41 /* libittnotify.a */; };
+		7F6F0F23216E986E00067B41 /* libippiw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F10216E986E00067B41 /* libippiw.a */; };
+		7F6F0F26216E988A00067B41 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F0F25216E988A00067B41 /* AppController.mm */; };
+		7F6F0F29216E99A600067B41 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F28216E99A600067B41 /* OpenCL.framework */; };
+		7F6F0F2B216E99E000067B41 /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F0F2A216E99E000067B41 /* VideoDecodeAcceleration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F6F0EDD216E97DC00067B41 /* TestCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6F0EE0216E97DC00067B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F6F0EE1216E97DC00067B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F6F0EE3216E97DF00067B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F6F0EE6216E97DF00067B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7F6F0EE8216E97DF00067B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6F0EE9216E97DF00067B41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F6F0EEB216E97DF00067B41 /* TestCV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestCV.entitlements; sourceTree = "<group>"; };
+		7F6F0EF2216E983200067B41 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7F6F0EF4216E983A00067B41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7F6F0EF6216E984100067B41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7F6F0EF8216E984800067B41 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7F6F0EFA216E985200067B41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7F6F0EFC216E985A00067B41 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7F6F0EFE216E986D00067B41 /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavresample.a; path = cvlibs/libavresample.a; sourceTree = "<group>"; };
+		7F6F0EFF216E986D00067B41 /* liblibpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibpng.a; path = cvlibs/liblibpng.a; sourceTree = "<group>"; };
+		7F6F0F00216E986D00067B41 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = cvlibs/libavcodec.a; sourceTree = "<group>"; };
+		7F6F0F01216E986D00067B41 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = cvlibs/libswresample.a; sourceTree = "<group>"; };
+		7F6F0F02216E986E00067B41 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = cvlibs/libavdevice.a; sourceTree = "<group>"; };
+		7F6F0F03216E986E00067B41 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = cvlibs/libavformat.a; sourceTree = "<group>"; };
+		7F6F0F04216E986E00067B41 /* libopencv_world.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_world.a; path = cvlibs/libopencv_world.a; sourceTree = "<group>"; };
+		7F6F0F05216E986E00067B41 /* liblibjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibjpeg.a; path = cvlibs/liblibjpeg.a; sourceTree = "<group>"; };
+		7F6F0F06216E986E00067B41 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = cvlibs/libavfilter.a; sourceTree = "<group>"; };
+		7F6F0F07216E986E00067B41 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = cvlibs/libzlib.a; sourceTree = "<group>"; };
+		7F6F0F08216E986E00067B41 /* libippicv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libippicv.a; path = cvlibs/libippicv.a; sourceTree = "<group>"; };
+		7F6F0F09216E986E00067B41 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = cvlibs/libavutil.a; sourceTree = "<group>"; };
+		7F6F0F0A216E986E00067B41 /* libIlmImf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImf.a; path = cvlibs/libIlmImf.a; sourceTree = "<group>"; };
+		7F6F0F0B216E986E00067B41 /* liblibjasper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibjasper.a; path = cvlibs/liblibjasper.a; sourceTree = "<group>"; };
+		7F6F0F0C216E986E00067B41 /* liblibwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibwebp.a; path = cvlibs/liblibwebp.a; sourceTree = "<group>"; };
+		7F6F0F0D216E986E00067B41 /* liblibtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibtiff.a; path = cvlibs/liblibtiff.a; sourceTree = "<group>"; };
+		7F6F0F0E216E986E00067B41 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = cvlibs/libswscale.a; sourceTree = "<group>"; };
+		7F6F0F0F216E986E00067B41 /* libittnotify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libittnotify.a; path = cvlibs/libittnotify.a; sourceTree = "<group>"; };
+		7F6F0F10216E986E00067B41 /* libippiw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libippiw.a; path = cvlibs/libippiw.a; sourceTree = "<group>"; };
+		7F6F0F24216E988A00067B41 /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = TestCV/AppController.h; sourceTree = "<group>"; };
+		7F6F0F25216E988A00067B41 /* AppController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppController.mm; path = TestCV/AppController.mm; sourceTree = "<group>"; };
+		7F6F0F27216E992A00067B41 /* CV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CV.hpp; path = TestCV/CV.hpp; sourceTree = "<group>"; };
+		7F6F0F28216E99A600067B41 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		7F6F0F2A216E99E000067B41 /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F6F0EDA216E97DC00067B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6F0F2B216E99E000067B41 /* VideoDecodeAcceleration.framework in Frameworks */,
+				7F6F0F29216E99A600067B41 /* OpenCL.framework in Frameworks */,
+				7F6F0F11216E986E00067B41 /* libavresample.a in Frameworks */,
+				7F6F0F12216E986E00067B41 /* liblibpng.a in Frameworks */,
+				7F6F0F13216E986E00067B41 /* libavcodec.a in Frameworks */,
+				7F6F0F14216E986E00067B41 /* libswresample.a in Frameworks */,
+				7F6F0F15216E986E00067B41 /* libavdevice.a in Frameworks */,
+				7F6F0F16216E986E00067B41 /* libavformat.a in Frameworks */,
+				7F6F0F17216E986E00067B41 /* libopencv_world.a in Frameworks */,
+				7F6F0F18216E986E00067B41 /* liblibjpeg.a in Frameworks */,
+				7F6F0F19216E986E00067B41 /* libavfilter.a in Frameworks */,
+				7F6F0F1A216E986E00067B41 /* libzlib.a in Frameworks */,
+				7F6F0F1B216E986E00067B41 /* libippicv.a in Frameworks */,
+				7F6F0F1C216E986E00067B41 /* libavutil.a in Frameworks */,
+				7F6F0F1D216E986E00067B41 /* libIlmImf.a in Frameworks */,
+				7F6F0F1E216E986E00067B41 /* liblibjasper.a in Frameworks */,
+				7F6F0F1F216E986E00067B41 /* liblibwebp.a in Frameworks */,
+				7F6F0F20216E986E00067B41 /* liblibtiff.a in Frameworks */,
+				7F6F0F21216E986E00067B41 /* libswscale.a in Frameworks */,
+				7F6F0F22216E986E00067B41 /* libittnotify.a in Frameworks */,
+				7F6F0F23216E986E00067B41 /* libippiw.a in Frameworks */,
+				7F6F0EFD216E985A00067B41 /* CoreVideo.framework in Frameworks */,
+				7F6F0EFB216E985200067B41 /* CoreMedia.framework in Frameworks */,
+				7F6F0EF9216E984800067B41 /* AVKit.framework in Frameworks */,
+				7F6F0EF7216E984100067B41 /* AVFoundation.framework in Frameworks */,
+				7F6F0EF5216E983A00067B41 /* AudioToolbox.framework in Frameworks */,
+				7F6F0EF3216E983200067B41 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F6F0ED4216E97DC00067B41 = {
+			isa = PBXGroup;
+			children = (
+				7F6F0F24216E988A00067B41 /* AppController.h */,
+				7F6F0F25216E988A00067B41 /* AppController.mm */,
+				7F6F0F27216E992A00067B41 /* CV.hpp */,
+				7F6F0EDF216E97DC00067B41 /* TestCV */,
+				7F6F0EDE216E97DC00067B41 /* Products */,
+				7F6F0EF1216E983100067B41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6F0EDE216E97DC00067B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F0EDD216E97DC00067B41 /* TestCV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6F0EDF216E97DC00067B41 /* TestCV */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F0EE0216E97DC00067B41 /* AppDelegate.h */,
+				7F6F0EE1216E97DC00067B41 /* AppDelegate.m */,
+				7F6F0EE3216E97DF00067B41 /* Assets.xcassets */,
+				7F6F0EE5216E97DF00067B41 /* MainMenu.xib */,
+				7F6F0EE8216E97DF00067B41 /* Info.plist */,
+				7F6F0EE9216E97DF00067B41 /* main.m */,
+				7F6F0EEB216E97DF00067B41 /* TestCV.entitlements */,
+			);
+			path = TestCV;
+			sourceTree = "<group>";
+		};
+		7F6F0EF1216E983100067B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F0F2A216E99E000067B41 /* VideoDecodeAcceleration.framework */,
+				7F6F0F28216E99A600067B41 /* OpenCL.framework */,
+				7F6F0F00216E986D00067B41 /* libavcodec.a */,
+				7F6F0F02216E986E00067B41 /* libavdevice.a */,
+				7F6F0F06216E986E00067B41 /* libavfilter.a */,
+				7F6F0F03216E986E00067B41 /* libavformat.a */,
+				7F6F0EFE216E986D00067B41 /* libavresample.a */,
+				7F6F0F09216E986E00067B41 /* libavutil.a */,
+				7F6F0F0A216E986E00067B41 /* libIlmImf.a */,
+				7F6F0F08216E986E00067B41 /* libippicv.a */,
+				7F6F0F10216E986E00067B41 /* libippiw.a */,
+				7F6F0F0F216E986E00067B41 /* libittnotify.a */,
+				7F6F0F0B216E986E00067B41 /* liblibjasper.a */,
+				7F6F0F05216E986E00067B41 /* liblibjpeg.a */,
+				7F6F0EFF216E986D00067B41 /* liblibpng.a */,
+				7F6F0F0D216E986E00067B41 /* liblibtiff.a */,
+				7F6F0F0C216E986E00067B41 /* liblibwebp.a */,
+				7F6F0F04216E986E00067B41 /* libopencv_world.a */,
+				7F6F0F01216E986D00067B41 /* libswresample.a */,
+				7F6F0F0E216E986E00067B41 /* libswscale.a */,
+				7F6F0F07216E986E00067B41 /* libzlib.a */,
+				7F6F0EFC216E985A00067B41 /* CoreVideo.framework */,
+				7F6F0EFA216E985200067B41 /* CoreMedia.framework */,
+				7F6F0EF8216E984800067B41 /* AVKit.framework */,
+				7F6F0EF6216E984100067B41 /* AVFoundation.framework */,
+				7F6F0EF4216E983A00067B41 /* AudioToolbox.framework */,
+				7F6F0EF2216E983200067B41 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F6F0EDC216E97DC00067B41 /* TestCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6F0EEE216E97DF00067B41 /* Build configuration list for PBXNativeTarget "TestCV" */;
+			buildPhases = (
+				7F6F0ED9216E97DC00067B41 /* Sources */,
+				7F6F0EDA216E97DC00067B41 /* Frameworks */,
+				7F6F0EDB216E97DC00067B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCV;
+			productName = TestCV;
+			productReference = 7F6F0EDD216E97DC00067B41 /* TestCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F6F0ED5216E97DC00067B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jared Bruni";
+				TargetAttributes = {
+					7F6F0EDC216E97DC00067B41 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F6F0ED8216E97DC00067B41 /* Build configuration list for PBXProject "TestCV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F6F0ED4216E97DC00067B41;
+			productRefGroup = 7F6F0EDE216E97DC00067B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F6F0EDC216E97DC00067B41 /* TestCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F6F0EDB216E97DC00067B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6F0EE4216E97DF00067B41 /* Assets.xcassets in Resources */,
+				7F6F0EE7216E97DF00067B41 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F6F0ED9216E97DC00067B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6F0EEA216E97DF00067B41 /* main.m in Sources */,
+				7F6F0F26216E988A00067B41 /* AppController.mm in Sources */,
+				7F6F0EE2216E97DC00067B41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F6F0EE5216E97DF00067B41 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6F0EE6216E97DF00067B41 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F6F0EEC216E97DF00067B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./include;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-documentation",
+				);
+				SDKROOT = macosx;
+				WARNING_LDFLAGS = "";
+			};
+			name = Debug;
+		};
+		7F6F0EED216E97DF00067B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./include;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-documentation",
+				);
+				SDKROOT = macosx;
+				WARNING_LDFLAGS = "";
+			};
+			name = Release;
+		};
+		7F6F0EEF216E97DF00067B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestCV/TestCV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestCV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cvlibs",
+				);
+				OTHER_LDFLAGS = /usr/lib/libbz2.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.TestCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F6F0EF0216E97DF00067B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestCV/TestCV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestCV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cvlibs",
+				);
+				OTHER_LDFLAGS = /usr/lib/libbz2.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.TestCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6F0ED8216E97DC00067B41 /* Build configuration list for PBXProject "TestCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6F0EEC216E97DF00067B41 /* Debug */,
+				7F6F0EED216E97DF00067B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6F0EEE216E97DF00067B41 /* Build configuration list for PBXNativeTarget "TestCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6F0EEF216E97DF00067B41 /* Debug */,
+				7F6F0EF0216E97DF00067B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F6F0ED5216E97DC00067B41 /* Project object */;
+}
